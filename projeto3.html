@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <a href="#"><h1>DrivenEats</h1></a>
+        <h2>Sua comida em 6 minutos</h2>
+    </header>
+
+<main>
+    <h1>Primeiro, seu prato</h1>
+        <div class="container">
+            <div class="box" onclick="oneDish(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/misso_lamen.jpg"/>
+                </figure>
+                </div>
+
+                <div class="text">
+                    <h4>Missô Ramen</h4>
+                    <p>Sopa de macarrão à base de missô</p>
+                    <p class="price">R$ <strong>47,50</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>  
+
+            <div class="box"  onclick="oneDish(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/teppan.jpg"/>
+                </figure>
+                </div>
+
+                <div class="text">
+                    <h4>Teppan de Salmão</h4>
+                    <p>Peixe grelhado com legumes</p>
+                    <p class="price">R$ <strong>54,90</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>  
+
+            <div class="box" onclick="oneDish(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/curry.jpg"/>
+                </figure>
+                </div>
+
+                <div class="text">
+                    <h4 class="nameDish">Tonkatsu Karê</h4>
+                    <p>Lombo de porco frito com Arroz e Curry</p>
+                    <p class="price">R$ <strong>48,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+
+            <div class="box" onclick="oneDish(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/gyudon.jpg"/>
+                </figure>
+                </div>
+
+                <div class="text">
+                    <h4>Gyudon</h4>
+                    <p>Tigela de arroz coberta com carne bovina</p>
+                    <p class="price">R$ <strong>47,50</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <h1>Agora, sua bebida</h1>
+        <div class="container">
+            <div class="box" onclick="oneDrink(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/agua.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Água sem Gás</h4>
+                    <p>Garrafa de 500ml</p>
+                    <p class="price">R$ <strong>4,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>  
+        
+            <div class="box" onclick="oneDrink(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/coca_cola.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Coca-Cola</h4>
+                    <p>Lata de 350ml</p>
+                    <p class="price">R$ <strong>6,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>  
+
+            <div class="box" onclick="oneDrink(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/heineken.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Heineken</h4>
+                    <p>Garrafa de 330ml</p>
+                    <p class="price">R$ <strong>9,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        
+            <div class="box" onclick="oneDrink(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/saque.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Saquê</h4>
+                    <p>Garrafa de 670ml</p>
+                    <p class="price">R$ <strong>55,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <h1>Agora, sua sobremesa</h1>
+        <div class="container">
+            <div class="box" onclick="oneDessert(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/mochi.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Mochi</h4>
+                    <p>Bolinho de arroz com pasta de feijão</p>
+                    <p class="price">R$ <strong>12,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>  
+        
+            <div class="box" onclick="oneDessert(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/matcha.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Sorvete de Matcha</h4>
+                    <p>Sorvete feito com chá verde</p>
+                    <p class="price">R$ <strong>9,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>  
+        
+            <div class="box" onclick="oneDessert(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/brownie.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Brownie</h4>
+                    <p>Brownie de chocolate com caramelo</p>
+                    <p class="price">R$ <strong>9,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        
+            <div class="box" onclick="oneDessert(this)">
+                <div class="box_figure">
+                <figure>
+                    <img src="images/pudim.jpg"/>
+                </figure>
+                </div>
+        
+                <div class="text">
+                    <h4>Pudim</h4>
+                    <p>Pudim com calda de caramelo</p>
+                    <p class="price">R$ <strong>10,00</strong></p>
+                </div>
+                <div class="position">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
+        </div> 
+    </main>
+
+    <footer>
+        <div class="button_finish" onclick="finish()">
+            <div class = "message">Selecione os 3 itens para fechar o pedido</div>
+        </div>
+    </footer>  
+    <script src="script.js"></script>  
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
